@@ -1,0 +1,93 @@
+<pipelines group="corp-5">
+  <authorization>
+    <admins>
+      <user>user5</user>
+    </admins>
+  </authorization>
+  <pipeline name="ci-workshop-app-5">
+    <environmentvariables>
+      <variable name="TENANT">
+        <value>user5</value>
+      </variable>
+      <variable name="GCLOUD_PROJECT_ID">
+        <value>continuous-intelligence</value>
+      </variable>
+      <variable name="GCLOUD_CLUSTER">
+        <value>continuous-intelligence-gke</value>
+      </variable>
+      <variable name="GCLOUD_ZONE">
+        <value>europe-west1-b</value>
+      </variable>
+      <variable name="GCLOUD_SERVICE_KEY" secure="true">
+        <encryptedValue>AES:+BQZzuC0xsFVHUBMGJhZrw==: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</encryptedValue>
+      </variable>
+    </environmentvariables>
+    <materials>
+      <git url="https://github.com/a7744hsc/continuous-intelligence-workshop.git" shallowClone="true" />
+    </materials>
+    <stage name="build-and-publish">
+      <jobs>
+        <job name="build" elasticProfileId="dvc">
+          <tasks>
+            <exec command="bash">
+              <arg>-c</arg>
+              <arg>echo $GCLOUD_SERVICE_KEY | base64 -d &gt; secret.json &amp;&amp; chmod 600 secret.json</arg>
+            </exec>
+            <exec command="bash">
+              <arg>-c</arg>
+              <arg>GOOGLE_APPLICATION_CREDENTIALS=./secret.json dvc pull model.pkl.dvc</arg>
+            </exec>
+            <exec command="bash">
+              <arg>-c</arg>
+              <arg>docker build --tag ci-workshop-app:$TENANT.$GO_PIPELINE_LABEL .</arg>
+            </exec>
+            <exec command="bash">
+              <arg>-c</arg>
+              <arg>docker login -u _json_key -p"$(echo $GCLOUD_SERVICE_KEY | base64 -d)" https://eu.gcr.io</arg>
+            </exec>
+            <exec command="bash">
+              <arg>-c</arg>
+              <arg>docker tag ci-workshop-app:$TENANT.$GO_PIPELINE_LABEL eu.gcr.io/$GCLOUD_PROJECT_ID/ci-workshop-app:$TENANT.$GO_PIPELINE_LABEL</arg>
+            </exec>
+            <exec command="bash">
+              <arg>-c</arg>
+              <arg>docker push eu.gcr.io/$GCLOUD_PROJECT_ID/ci-workshop-app:$TENANT.$GO_PIPELINE_LABEL</arg>
+            </exec>
+            <exec command="bash">
+              <arg>-c</arg>
+              <arg>rm secret.json</arg>
+            </exec>
+          </tasks>
+        </job>
+      </jobs>
+    </stage>
+    <stage name="deploy">
+      <jobs>
+        <job name="deploy" elasticProfileId="kubectl">
+          <tasks>
+            <exec command="bash">
+              <arg>-c</arg>
+              <arg>echo $GCLOUD_SERVICE_KEY | base64 -d &gt; secret.json &amp;&amp; chmod 600 secret.json</arg>
+            </exec>
+            <exec command="bash">
+              <arg>-c</arg>
+              <arg>gcloud auth activate-service-account --key-file secret.json</arg>
+            </exec>
+            <exec command="bash">
+              <arg>-c</arg>
+              <arg>gcloud container clusters get-credentials $GCLOUD_CLUSTER --zone $GCLOUD_ZONE --project $GCLOUD_PROJECT_ID</arg>
+            </exec>
+            <exec command="bash">
+              <arg>-c</arg>
+              <arg>./deploy.sh</arg>
+            </exec>
+            <exec command="bash">
+              <arg>-c</arg>
+              <arg>rm secret.json</arg>
+            </exec>
+          </tasks>
+        </job>
+      </jobs>
+    </stage>
+  </pipeline>
+</pipelines>
